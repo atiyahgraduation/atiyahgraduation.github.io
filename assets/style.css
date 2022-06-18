@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;500;700;800&family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4ec;
+}
+
+.navbar {
+    background-color: #be7141!important;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif!important;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive!important;
+}
+
+.happy {
+    font-weight: 800;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.sub-head {
+    position: relative;
+    font-size: 50px;
+    top: -40px;
+    left: 65px;
+    color: #cea564; 
+}
+
+.sub-head-kado {
+    position: relative;
+    font-size: 50px;
+    top: -40px;
+    color: #cea564; 
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.hero p {
+    position: relative;
+    font-size: 17px;
+    top: -40px;
+}
+
+.text-section {
+    margin-top: 40%;
+    margin-left: 30px;
+}
+
+.text-section a {
+    position: relative;
+    top: -40px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 17px;
+    border: 1px solid #C98860;
+    background-color: transparent;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.text-section a:hover {
+    background-color: #C98860;
+    color: white;
+}
+
+.hero .kananAtas {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero .kiriBawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.UmiCollage {
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+.sectionUcapan .mainImageUcapan {
+    position: relative;
+    top: 25%;
+    left: 0;
+    width: 950px;
+}
+
+.sectionUcapan .kananAtasUcapan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.sectionUcapan .kananBawahUcapan {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    z-index: -9;
+}
+
+.box {
+    background-color: #ebd4c6;
+    padding: 30px;
+    border-radius: 30px;
+}
+.sectionKado .containerKado img{
+    transition: 0.6s;
+    cursor: pointer
+}
+
+.sectionKado .containerKado img:hover {
+    transform: scale(1.2);
+}
